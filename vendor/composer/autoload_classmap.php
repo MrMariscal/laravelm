@@ -7,12 +7,14 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
+    'App\\Detail' => $baseDir . '/app/Detail.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
     'App\\Http\\Controllers\\Auth\\RegisterController' => $baseDir . '/app/Http/Controllers/Auth/RegisterController.php',
     'App\\Http\\Controllers\\Auth\\ResetPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ResetPasswordController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\DetailController' => $baseDir . '/app/Http/Controllers/DetailController.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
     'App\\Http\\Controllers\\PhotoController' => $baseDir . '/app/Http/Controllers/PhotoController.php',
     'App\\Http\\Controllers\\ProductsController' => $baseDir . '/app/Http/Controllers/ProductsController.php',
@@ -70,6 +72,7 @@ return array(
     'DeepCopy\\TypeFilter\\Spl\\SplDoublyLinkedList' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedList.php',
     'DeepCopy\\TypeFilter\\TypeFilter' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/TypeFilter.php',
     'DeepCopy\\TypeMatcher\\TypeMatcher' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php',
+    'Detail' => $baseDir . '/database/migrations/2017_08_08_224530_Detail.php',
     'Doctrine\\Common\\Inflector\\Inflector' => $vendorDir . '/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php',
     'Doctrine\\Instantiator\\Exception\\ExceptionInterface' => $vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator/Exception/ExceptionInterface.php',
     'Doctrine\\Instantiator\\Exception\\InvalidArgumentException' => $vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator/Exception/InvalidArgumentException.php',

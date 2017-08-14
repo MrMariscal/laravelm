@@ -31,7 +31,8 @@ Route::get('user/{id}','UserController@show')->name('user.show');
 Route::post('store-user','UserController@store')->name('user.store');
 Route::put('update-user/{id}','UserController@update')->name('user.update');
 Route::get('hash','UserController@hash')->name('user.hash');
-
+Route::get('detail/{id}','DetailController@store')->name('detail.store');
+Route::get('/detail','DetailController@index')->name('detail.index');
 Route::get('create','Auth\RegisterController@create');
 Route::get('login','Auth\RegisterController@showLoginForm');
 

@@ -3,4 +3,5 @@
     <p>{{ $descripcion }}</p>
     {{ $slot }}
     <a href="{{ route('products.show',['id'=>$id]) }}">Ver más</a>
+    <a href="{{ route('detail.store',['id'=>$id]) }}">Agregar a Carrito</a>
 </div>

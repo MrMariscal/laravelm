@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Product extends Model
 {
 
-    protected $fillable = ['product_type_id','titulo','descripcion'];
+    protected $fillable = ['product_type_id','titulo','descripcion','price'];
 
     /*
         Una relacion 1:N donde producto es N, para la obtencion de su respectivo registro relacionado se utiliza belongsTo
